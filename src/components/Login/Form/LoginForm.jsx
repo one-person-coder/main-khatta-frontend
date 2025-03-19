@@ -71,12 +71,6 @@ export default function LoginForm({ authType }) {
 
   return (
     <div className="w-full max-w-4xl">
-      {/* Mobile logo - only visible on mobile */}
-      <div className="mb-8 text-center md:hidden">
-        <h1 className="text-3xl font-bold text-purple-600">Jeddah Traders</h1>
-        <p className="text-gray-500">General Order Supplier</p>
-      </div>
-
       <Card className="overflow-hidden border-none bg-white dark:bg-zinc-900 shadow-2xl transition-all duration-300 hover:shadow-purple-100 dark:shadow-none">
         <CardHeader className="space-y-1 pb-6">
           <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-purple-600 to-purple-400 text-white shadow-lg shadow-purple-200 dark:shadow-none">

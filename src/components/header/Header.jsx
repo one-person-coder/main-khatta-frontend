@@ -26,7 +26,7 @@ function Header() {
             </svg>
           </div>
           <div>
-            <h1 className="text-xl font-bold text-purple-700 dark:text-purple-400">
+            <h1 className="text-xl font-bold text-purple-700 dark:text-purple-200">
               Jeddah Traders
             </h1>
             <p className="text-xs text-gray-500 dark:text-zinc-300">General Order Supplier</p>
